@@ -11,8 +11,8 @@ This Streamlit application predicts median house prices in California using a Ra
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
-    cd california-housing-app
+    git clone https://github.com/vyom-devgan/House-Predict-Aws.git
+    cd House-Predict-Aws
     ```
 2. Install dependencies:
     ```bash
@@ -27,11 +27,11 @@ This Streamlit application predicts median house prices in California using a Ra
 ### Docker
 1. Build the Docker image:
     ```bash
-    docker build -t california-housing-app .
+    docker build -t House-Predict-Aws .
     ```
 2. Run the container:
     ```bash
-    docker run -p 8501:8501 california-housing-app
+    docker run -p 8501:8501 House-Predict-Aws
     ```
 
 ### AWS ECS
